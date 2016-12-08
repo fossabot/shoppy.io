@@ -40,8 +40,6 @@ function createWindow () {
   mainWindow.on('closed', () => {
     mainWindow = null
   })
-
-  console.log('mainWindow opened')
 }
 
 app.on('ready', createWindow)
