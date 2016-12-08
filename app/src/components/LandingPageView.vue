@@ -1,4 +1,4 @@
-<style scoped>
+<style lang="scss" scoped>
   img {
     margin-top: -25px;
     width: 450px;

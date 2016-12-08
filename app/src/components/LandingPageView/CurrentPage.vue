@@ -1,4 +1,4 @@
-<style scoped>
+<style lang="scss" scoped>
   code {
     background-color: rgba(40, 56, 76, .5);
     border-radius: 3px;
