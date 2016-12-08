@@ -86,7 +86,7 @@ let config = {
   vue: {
     loaders: {
       sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1',
-      scss: 'vue-style-loader!css-loader!sass-loader'
+      scss: ExtractTextPlugin.extract('css!sass') /* scss: 'vue-style-loader!css-loader!sass-loader' */
     }
   }
 }

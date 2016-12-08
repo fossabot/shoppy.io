@@ -2,7 +2,7 @@ import utils from '../utils'
 
 import { name } from '../../../config'
 
-describe('Launch', function () {
+describe('Electron UI', function () {
   beforeEach(utils.beforeEach)
   afterEach(utils.afterEach)
 
