@@ -6,6 +6,7 @@ const settings = require('./config.js')
 const webpack = require('webpack')
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const StyleLintPlugin = require('stylelint-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 let config = {
@@ -64,6 +65,12 @@ let config = {
       filename: 'index.html',
       template: './app/index.ejs',
       title: settings.name
+    }),
+    new StyleLintPlugin({
+      configFile: '.stylelintrc',
+      syntax: 'scss',
+      files: '**/*.vue',
+      failOnError: false
     }),
     new webpack.NoErrorsPlugin()
   ],
