@@ -13,7 +13,7 @@
     "e2e": "npm run pack && mocha test/e2e",
     "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter app test",
     "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix app test",
-    "lint:css": "stylelint '**/*.vue' --syntax scss",
+    "lint:css": "stylelint '**/*.vue' --syntax scss --config .stylelintrc",
     "pack": "cross-env NODE_ENV=production webpack -p --progress --colors",
     "test": "npm run unit && npm run e2e",
     "unit": "karma start test/unit/karma.conf.js",
