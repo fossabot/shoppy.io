@@ -1,6 +1,6 @@
 <style lang="scss" scoped>
   code {
-    background-color: rgba(40, 56, 76, .5);
+    background-color: rgba(40, 56, 76, 0.5);
     border-radius: 3px;
     color: #fff;
     font-weight: bold;

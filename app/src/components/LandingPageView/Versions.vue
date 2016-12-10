@@ -1,3 +1,5 @@
+<style lang="scss"></style>
+
 <template>
   <p>
     You are using electron v{{ versions['atom-shell'] }} with node v{{ versions.node }} on the {{ platform }} platform.

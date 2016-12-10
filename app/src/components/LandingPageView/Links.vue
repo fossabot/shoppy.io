@@ -13,7 +13,9 @@
     margin-top: 10px;
   }
 
-  li { display: inline-block; }
+  li {
+    display: inline-block; 
+  }
 </style>
 
 <template>

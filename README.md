@@ -5,7 +5,7 @@
 ## Roadmap
 
 Electron:
-[ ] Add 'nightwatchjs' support or start understanding 'chai'
+[ ] Add 'nightwatchjs' support and/or start understanding 'chai'
 [ ] Add 'electron-builder'
 [ ] Add 'electron-gh-releases'
 [ ] Add updater support
@@ -14,28 +14,65 @@ Vue:
 [ ] Implement 'vue-material'
 [ ] Implement 'vue-i18n'
 
+Dev:
+[ ] CI Server
+
 Recurring:
 [ ] Daily: add a test a day
 [ ] Weekly: Implement a feature
 
-## Build Setup
+## Getting started dev / production
 
-``` bash
-# install dependencies
+```bash
+# Install dependencies
 npm install
 
-# serve with hot reload at localhost:9080
+# Serve with hot reload at localhost:9080
 npm run dev
 
-# build electron app for production
+# Build electron app for production
 npm run build
 
-# lint all JS/Vue component files in `app/src`
-npm run lint
-
-# run webpack in production
+# Run webpack in production
 npm run pack
 ```
-More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/docs/npm_scripts.html).
+
+## Linting / Code Quality & Coverage
+
+```bash
+# Lint all your app/src's JS & Vue component files.
+npm run lint
+
+# Same as above but also attempt to fix issues.
+npm run lint:fix
+
+# CSS linting only
+npm run lint:css
+```
+
+## Testing
+
+```bash
+# Run unit tests with Karma + Jasmine
+npm run unit
+
+# Run end-to-end tests with Spectron + Mocha
+npm run e2e
+
+# Run both above in one command
+npm run test
+```
+
+## Vue Tooling
+
+```bash
+# Create a new vue route
+npm run vue:route <routeName>
+
+# Create vue module
+npm run vuex:module <moduleName>
+```
 
 ---
+
+More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/).
