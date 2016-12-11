@@ -4,8 +4,8 @@
     text-decoration: none;
   }
   
-  a:hover { 
-    color: rgb(40, 56, 76); 
+  a:hover {
+    color: rgb(40, 56, 76);
   }
 
   ul {
@@ -14,7 +14,7 @@
   }
 
   li {
-    display: inline-block; 
+    display: inline-block;
   }
 </style>
 
