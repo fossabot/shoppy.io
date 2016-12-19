@@ -8,7 +8,8 @@ Electron:
 [ ] Add 'nightwatchjs' support and/or start understanding 'chai'
 [ ] Add 'electron-builder'
 [ ] Add 'electron-gh-releases'
-[ ] Add updater support
+[ ] Add updater support (electron-builder?)
+[ ] Replace chai with Jasmine (visual e2e on electron)
 
 Vue:
 [ ] Implement 'vue-material'
