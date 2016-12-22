@@ -2,6 +2,7 @@
   "name": "shoppy.io",
   "version": "0.0.0",
   "description": "Ebay Shoppy Themes Manager",
+  "homepage": "https://shoppy.io",
   "scripts": {
     "build": "node tasks/release.js",
     "build:clean": "cross-env PLATFORM_TARGET=clean node tasks/release.js",
@@ -81,6 +82,5 @@
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^1.0.2"
-  },
-  "dependencies": {}
+  }
 }

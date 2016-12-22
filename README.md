@@ -6,7 +6,7 @@
 
 Electron:
 [ ] Add 'nightwatchjs' support and/or start understanding 'chai'
-[ ] Add 'electron-builder'
+[ ] ~Add 'electron-builder'~ create installer rather then builder. npm run build already does that / https://github.com/unindented/electron-installer-windows + https://github.com/unindented/electron-installer-debian
 [ ] Add 'electron-gh-releases'
 [ ] Add updater support (electron-builder?)
 [ ] Replace chai with Jasmine (visual e2e on electron)
@@ -16,7 +16,11 @@ Vue:
 [ ] Implement 'vue-i18n'
 
 Dev:
-[ ] CI Server
+[ ] CI Server (Travis CI as it has MAC support)
+[ ] Opensource to Github (Travis CI freemium)
+[ ] Codecoverage codecov.io
+[ ] Codeclimate codeclimate.com
+[ ] Include Lighthouse
 
 Recurring:
 [ ] Daily: add a test a day
