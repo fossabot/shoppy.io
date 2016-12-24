@@ -2,33 +2,37 @@
 
 > Ebay Shoppy Themes Manager
 
-![https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master](https://travis-ci.org/tomsiwik/shoppy.io)
-![https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true](https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true)
+![https://travis-ci.org/tomsiwik/shoppy.io](https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master)
+![https://ci.appveyor.com/project/tomsiwik/shoppy-io](https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true)
 
 ## Roadmap
 
 Electron:
-[ ] Add 'nightwatchjs' support and/or start understanding 'chai'
-[ ] ~Add 'electron-builder'~ create installer rather then builder. npm run build already does that / https://github.com/unindented/electron-installer-windows + https://github.com/unindented/electron-installer-debian
-[ ] Add 'electron-gh-releases'
-[ ] Add updater support (electron-builder?)
-[ ] Replace chai with Jasmine (visual e2e on electron)
+
+  - [ ] Add 'nightwatchjs' support and/or start understanding 'chai'
+  - [ ] ~Add 'electron-builder'~ create installer rather then builder. npm run build already does that / https://github.com/unindented/electron-installer-windows + https://github.com/unindented/electron-installer-debian
+  - [ ] Add 'electron-gh-releases'
+  - [ ] Add updater support (electron-builder?)
+  - [ ] Replace chai with Jasmine (visual e2e on electron)
 
 Vue:
-[ ] Implement 'vue-material'
-[ ] Implement 'vue-i18n'
+
+  - [ ] Implement 'vue-material'
+  - [ ] Implement 'vue-i18n'
 
 Dev:
-[ ] CI Server (Travis CI / CircleCI [iOS Support])
-[ ] Opensource to Github (Travis CI freemium)
-[ ] Codecoverage codecov.io
-[ ] Codeclimate codeclimate.com
-[ ] Include Lighthouse tests
-[ ] fuse-box > webpack
+
+  - [x] CI Server (Travis CI / CircleCI [iOS Support])
+  - [ ] Opensource to Github (Travis CI freemium)
+  - [ ] Codecoverage codecov.io
+  - [ ] Codeclimate codeclimate.com
+  - [ ] Include Lighthouse tests
+  - [ ] fuse-box > webpack
 
 Recurring:
-[ ] Daily: add a test a day
-[ ] Weekly: Implement a feature
+
+  - [ ] Daily: add a test a day
+  - [ ] Weekly: Implement a feature
 
 ## Getting started dev / production
 
