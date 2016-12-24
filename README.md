@@ -3,8 +3,7 @@
 > Ebay Shoppy Themes Manager
 
 ![https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master](https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master)
-![https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)
-
+![https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true](https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true)
 
 ## Roadmap
 
