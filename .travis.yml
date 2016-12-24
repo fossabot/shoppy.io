@@ -1,6 +1,17 @@
+os:
+  - linux
+  - osx
+sudo: false
 osx_image: xcode8.2
+before_install:
+  - brew update
+  - brew outdated xctool || brew upgrade xctool
 git:
   depth: 1
 branches:
   only:
   - master
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
