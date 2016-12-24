@@ -16,11 +16,12 @@ Vue:
 [ ] Implement 'vue-i18n'
 
 Dev:
-[ ] CI Server (Travis CI as it has MAC support)
+[ ] CI Server (Travis CI / CircleCI [iOS Support])
 [ ] Opensource to Github (Travis CI freemium)
 [ ] Codecoverage codecov.io
 [ ] Codeclimate codeclimate.com
-[ ] Include Lighthouse
+[ ] Include Lighthouse tests
+[ ] fuse-box > webpack
 
 Recurring:
 [ ] Daily: add a test a day
