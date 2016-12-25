@@ -1,5 +1,7 @@
 environment:
   nodejs_version: "6.1"
+  NODE_GYP_VER: 3.4.0
+  NODE_GYP_DIR: '%USERPROFILE%\.node-gyp'
 
 install:
   - ps: Install-Product node $env:nodejs_version
@@ -10,4 +12,4 @@ test_script:
   - npm --version
   - npm test
 
-build: on
+build: off
