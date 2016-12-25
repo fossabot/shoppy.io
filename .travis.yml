@@ -13,18 +13,24 @@ matrix:
     - os: osx
       osx_image: xcode8.2
 
-
-script: npm test
-
 addons:
   apt:
     packages:
       - xvfb
 
 install:
+  - npm install -g codecov
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then export DISPLAY=':99.0'; fi
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 & fi
   - npm install
+  
+script:
+  - npm test
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
+  - codecov
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 
 git:
   depth: 1
