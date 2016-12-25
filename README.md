@@ -25,7 +25,7 @@ Dev:
 
   - [x] CI Server (Travis CI / CircleCI [iOS Support])
   - [x] Opensource to Github (Travis CI freemium)
-  - [ ] Codecoverage codecov.io
+  - [x] Codecoverage codecov.io
   - [ ] Codeclimate codeclimate.com
   - [ ] Include Lighthouse tests
   - [ ] fuse-box > webpack
