@@ -1,3 +1,5 @@
+os: Visual Studio 2015
+
 environment:
   nodejs_version: "6.1"
   NODE_GYP_VER: 3.4.0
