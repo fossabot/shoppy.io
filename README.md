@@ -28,8 +28,10 @@ Dev:
   - [x] Opensource to Github (Travis CI freemium)
   - [x] Codecoverage codecov.io
   - [x] Codeclimate codeclimate.com
+  - [ ] Include 'semantic-release' without npm publish
   - [ ] Include Lighthouse tests
   - [ ] fuse-box > webpack
+  - [ ] Compressed builds, see [here](https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a#.wpbbbl20h)
 
 Recurring:
 
