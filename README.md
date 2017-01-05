@@ -12,10 +12,14 @@
 Electron:
 
   - [ ] Add 'nightwatchjs' support and/or start understanding 'chai'
-  - [ ] ~Add 'electron-builder'~ create installer rather then builder. npm run build already does that / https://github.com/unindented/electron-installer-windows + https://github.com/unindented/electron-installer-debian
+  - [ ] Implement installer: 
+    * https://github.com/unindented/electron-installer-windows
+    * https://github.com/unindented/electron-installer-debian
+    * https://github.com/mongodb-js/electron-installer-dmg
   - [ ] Add 'electron-gh-releases'
   - [ ] Add updater support (electron-builder?)
   - [ ] Replace chai with Jasmine (visual e2e on electron)
+  - [ ] Consider Winston for logging - https://github.com/winstonjs/winston
 
 Vue:
 
@@ -25,9 +29,11 @@ Vue:
 Dev:
 
   - [x] CI Server (Travis CI / CircleCI [iOS Support])
+  - [ ] Implement local tests just like Travis CI - https://github.com/vadimdemedes/trevor
   - [x] Opensource to Github (Travis CI freemium)
   - [x] Codecoverage codecov.io
   - [x] Codeclimate codeclimate.com
+  - [ ] Include DevLab - https://github.com/TechnologyAdvice/DevLab
   - [ ] Include 'semantic-release' without npm publish
   - [ ] Include Lighthouse tests
   - [ ] fuse-box > webpack
