@@ -25,6 +25,8 @@ Vue:
 
   - [ ] Implement 'vue-material'
   - [ ] Implement 'vue-i18n'
+  - [ ] IndexDB Template rendering
+  - [ ] WebCrypto Template encryption
 
 Dev:
 
