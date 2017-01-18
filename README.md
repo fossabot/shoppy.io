@@ -41,6 +41,10 @@ Dev:
   - [ ] fuse-box > webpack
   - [ ] Compressed builds, see [here](https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a#.wpbbbl20h)
 
+Bugs:
+
+  - [ ] Investigate: https://github.com/electron/spectron/issues/86
+
 Recurring:
 
   - [ ] Daily: add a test a day
