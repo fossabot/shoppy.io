@@ -40,6 +40,7 @@ Dev:
   - [ ] Include Lighthouse tests
   - [ ] fuse-box > webpack
   - [ ] Compressed builds, see [here](https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a#.wpbbbl20h)
+  - [ ] Use [yarn](https://github.com/yarnpkg/yarn) on Travic CI ([read](https://docs.travis-ci.com/user/caching/))
 
 Bugs:
 
