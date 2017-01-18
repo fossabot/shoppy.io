@@ -11,5 +11,5 @@ describe('Electron UI', function () {
       .then(title => {
         expect(title).to.equal(name)
       })
-  }).timeout(10000)
+  })
 })
