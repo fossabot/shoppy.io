@@ -20,6 +20,7 @@ Electron:
   - [ ] Add updater support (electron-builder?)
   - [ ] Replace chai with Jasmine (visual e2e on electron)
   - [ ] Consider Winston for logging - https://github.com/winstonjs/winston
+  - [ ] Surge Static Websites with SSL - [Surge](http://surge.sh/help/getting-started-with-surge)
 
 Vue:
 
