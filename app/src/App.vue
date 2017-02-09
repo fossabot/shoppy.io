@@ -19,6 +19,8 @@
     font-family: Lato, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
   }
 </style>
 

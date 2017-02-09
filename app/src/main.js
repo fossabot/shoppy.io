@@ -3,7 +3,7 @@ import Electron from 'vue-electron'
 import Resource from 'vue-resource'
 import Router from 'vue-router'
 
-import App from './App'
+import App from './App.vue'
 import routes from './routes'
 
 Vue.use(Electron)
@@ -13,11 +13,13 @@ Vue.config.debug = true
 
 const router = new Router({
   scrollBehavior: () => ({ y: 0 }),
+  mode: 'history',
+  base: __dirname,
   routes
 })
 
 /* eslint-disable no-new */
 new Vue({
   router,
-  ...App
+  components: { App } // ...App
 }).$mount('#app')
