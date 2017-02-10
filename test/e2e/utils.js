@@ -11,7 +11,6 @@ export default {
   },
   beforeEach () {
     this.timeout(10000)
-
     this.app = new Application({
       path: electron,
       args: ['app'],
