@@ -1,6 +1,6 @@
 {
   "name": "shoppy.io",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ebay template builder",
   "scripts": {
     "build": "npm run pack && build",
@@ -20,7 +20,7 @@
   },
   "build": {
     "productName": "ElectronVue",
-    "appId": "org.simulatedgreg.electron-vue",
+    "appId": "io.shoppy.ebay",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
@@ -54,8 +54,8 @@
       ]
     }
   },
-  "author": "Greg Holguin <simulatedgreg@gmail.com>",
-  "license": "MIT",
+  "author": "Tomas Sivicki <tomas.sivicki@gmail.com>",
+  "license": "LICENSE.md",
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-eslint": "^7.0.0",
