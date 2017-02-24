@@ -2,7 +2,7 @@
 
 > Ebay Shoppy Themes Manager
 
-[![SemaphoreCI](https://semaphoreci.com/api/v1/tomsiwik/shoppy-io/branches/master/shields_badge.svg)](https://semaphoreci.com/tomsiwik/shoppy-io)[![Appveyor Builds](https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true)](https://ci.appveyor.com/project/tomsiwik/shoppy-io)[![Travis CI](https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master)](https://travis-ci.org/tomsiwik/shoppy.io)
+[![SemaphoreCI](https://semaphoreci.com/api/v1/tomsiwik/shoppy-io/branches/master/shields_badge.svg)](https://semaphoreci.com/tomsiwik/shoppy-io) [![Appveyor Builds](https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true)](https://ci.appveyor.com/project/tomsiwik/shoppy-io) [![Travis CI](https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master)](https://travis-ci.org/tomsiwik/shoppy.io)
 ---
 [![codecov](https://codecov.io/gh/tomsiwik/shoppy.io/branch/master/graph/badge.svg)](https://codecov.io/gh/tomsiwik/shoppy.io)
 [![Code Climate](https://codeclimate.com/github/tomsiwik/shoppy.io/badges/gpa.svg)](https://codeclimate.com/github/tomsiwik/shoppy.io)
