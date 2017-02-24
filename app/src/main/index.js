@@ -1,6 +1,7 @@
 'use strict'
 
 import { app, BrowserWindow } from 'electron'
+import windowStateKeeper from 'electron-window-state'
 
 let mainWindow
 const winURL = process.env.NODE_ENV === 'development'
@@ -8,23 +9,25 @@ const winURL = process.env.NODE_ENV === 'development'
   : `file://${__dirname}/index.html`
 
 function createWindow () {
+  let mainWindowState = windowStateKeeper({
+    defaultWidth: 1024,
+    defaultHeight: 768
+  })
+
   /**
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 768,
-    width: 1024,
+    x: mainWindowState.x,
+    y: mainWindowState.y,
+    width: mainWindowState.width,
+    height: mainWindowState.height,
     frame: false
   })
 
   mainWindow.loadURL(winURL)
 
-  mainWindow.on('closed', () => {
-    mainWindow = null
-  })
-
-  // eslint-disable-next-line no-console
-  console.log('mainWindow opened')
+  mainWindowState.manage(mainWindow)
 }
 
 app.on('ready', createWindow)
