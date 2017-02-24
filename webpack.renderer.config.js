@@ -48,8 +48,8 @@ let rendererConfig = {
         loader: 'vue-loader',
         options: {
           loaders: {
-            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1',
-            scss: 'vue-style-loader!css-loader!sass-loader'
+            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1&data=@import "./app/src/renderer/global"',
+            scss: 'vue-style-loader!css-loader!sass-loader?data=@import "./app/src/renderer/global";'
           }
         }
       },

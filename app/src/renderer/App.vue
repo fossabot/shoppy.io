@@ -11,7 +11,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
   * {
@@ -24,7 +24,7 @@
 
   body {
     align-items: center;
-    background: rgba(255, 255, 255, 1);
+    background: $window_primary;
     background-position: center;
     display: flex;
     font-family: Lato, Helvetica, sans-serif;
