@@ -6,14 +6,14 @@
   </ul>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
   a {
     color: rgb(50, 174, 110);
     text-decoration: none;
-  }
 
-  a:hover {
-    color: rgb(40, 56, 76);
+    :hover {
+      color: rgb(40, 56, 76);
+    }
   }
 
   ul {
