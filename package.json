@@ -113,7 +113,5 @@
     "webpack-dev-server": "^2.2.0",
     "webpack-merge": "^2.4.0"
   },
-  "dependencies": {
-    "electron-window-state": "^4.0.2"
-  }
+  "dependencies": {}
 }
