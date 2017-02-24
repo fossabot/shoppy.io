@@ -44,6 +44,10 @@ let rendererConfig = {
         loader: 'node-loader'
       },
       {
+        test: /\.scss$/,
+        loader: 'sass-loader'
+      },
+      {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
