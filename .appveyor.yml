@@ -23,4 +23,8 @@ test_script:
   - npm --version
   - npm test
 
+cache:
+  - app\node_modules
+  - node_modules                        # local npm modules
+
 build: off
