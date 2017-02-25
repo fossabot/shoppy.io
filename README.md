@@ -1,4 +1,4 @@
-# shoppy.io
+# Shoppy.io
 
 > Ebay Shoppy Themes Manager
 
