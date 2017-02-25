@@ -22,7 +22,10 @@ function createWindow () {
     y: mainWindowState.y,
     width: mainWindowState.width,
     height: mainWindowState.height,
-    frame: false
+    minHeight: 600,
+    minWidth: 800,
+    frame: false,
+    resizable: true
   })
 
   mainWindow.loadURL(winURL)
