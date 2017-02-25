@@ -107,3 +107,4 @@ npm run vuex:module <moduleName>
 ---
 
 More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/).
+
