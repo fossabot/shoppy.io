@@ -3,6 +3,7 @@
 > Ebay Shoppy Themes Manager
 
 [![SemaphoreCI](https://semaphoreci.com/api/v1/tomsiwik/shoppy-io/branches/master/shields_badge.svg)](https://semaphoreci.com/tomsiwik/shoppy-io) [![Appveyor Builds](https://ci.appveyor.com/api/projects/status/pyfalqw7f3d3n1i3?svg=true)](https://ci.appveyor.com/project/tomsiwik/shoppy-io) [![Travis CI](https://travis-ci.org/tomsiwik/shoppy.io.svg?branch=master)](https://travis-ci.org/tomsiwik/shoppy.io) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/732/badge)](https://bestpractices.coreinfrastructure.org/projects/732)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftomsiwik%2Fshoppy.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftomsiwik%2Fshoppy.io?ref=badge_shield)
 ---
 [![codecov](https://codecov.io/gh/tomsiwik/shoppy.io/branch/master/graph/badge.svg)](https://codecov.io/gh/tomsiwik/shoppy.io)
 [![Code Climate](https://codeclimate.com/github/tomsiwik/shoppy.io/badges/gpa.svg)](https://codeclimate.com/github/tomsiwik/shoppy.io)
@@ -108,3 +109,7 @@ npm run vuex:module <moduleName>
 
 More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/).
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftomsiwik%2Fshoppy.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftomsiwik%2Fshoppy.io?ref=badge_large)
